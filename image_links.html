@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        /* Add CSS styling here if desired */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+        }
+        .menu {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to the Image Links Page!</h1>
+        </header>
+        
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to our website. Check out this cool architecture image:</p>
+            <a href="https://www.architecturaldigest.com/" target="_blank">
+                <img src="https://www.architecturaldigest.com/resizer/UPMkqWucvUJ5ee43MgvF1eIpC8Y=/1440x0/filters:format_rule:webp()/cloudfront-us-east-1.images.arcpublishing.com/conde/BQGC24N4XFEWJDK5QFSVQ6S6XQ.jpg" alt="Architecture Image">
+            </a>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <a href="https://www.houzz.com/" target="_blank">
+                    <img src="https://st.hzcdn.com/fimgs/8fd1dfe60cf42b35_3644-w312-h312-b0-p0--.jpg" alt="Interior Design Image 1">
+                </a>
+                <a href="https://www.houzz.com/" target="_blank">
+                    <img src="https://st.hzcdn.com/fimgs/8a91f4b60ef4d54e_5309-w312-h312-b0-p0--.jpg" alt="Interior Design Image 2">
+                </a>
+                <a href="https://www.houzz.com/" target="_blank">
+                    <img src="https://st.hzcdn.com/fimgs/8fd1dfe60cf42b35_3644-w312-h312-b0-p0--.jpg" alt="Interior Design Image 3">
+                </a>
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2>Menu</h2>
+            <ul class="menu">
+                <li><a href="https://www.hgtv.com/design/outdoor-design/landscaping-and-hardscaping/15-before-and-after-backyard-transformations-pictures" target="_blank">Garden Design</a></li>
+                <li><a href="https://www.hgtv.com/outdoors/landscaping-and-hardscaping/15-before-and-after-backyard-transformations-pictures" target="_blank">Backyard Landscaping</a></li>
+                <li><a href="https://www.hgtv.com/outdoors/outdoor-spaces/outdoor-remodels/25-luxurious-outdoor-spaces-pictures" target="_blank">Outdoor Living Spaces</a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
